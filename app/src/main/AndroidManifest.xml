@@ -3,6 +3,7 @@
     package="com.asianaidt.edu.librarypractice_20220518">
     
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"

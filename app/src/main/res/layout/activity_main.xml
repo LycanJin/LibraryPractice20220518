@@ -40,5 +40,19 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="활동 내역 사진" />
+
+    <ImageView
+        android:id="@+id/img_web"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
 
 </LinearLayout>

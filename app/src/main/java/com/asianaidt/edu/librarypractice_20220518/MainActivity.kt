@@ -6,6 +6,7 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.normal.TedPermission
 import kotlinx.android.synthetic.main.activity_main.*
@@ -51,7 +52,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun setupValues() {
-
+        // https 만 가능
+        Glide.with(this).load("https://i.discogs.com/NHAk7rYgJrK1QueMfGzzw9pdGoyFx6fZUUW7xBYqlB4/rs:fit/g:sm/q:90/h:315/w:306/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTc5Mzg3/NC0xMTc2OTA3MTAy/LmpwZWc.jpeg").into(img_web)
     }
 
 }
