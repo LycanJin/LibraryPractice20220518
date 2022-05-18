@@ -14,8 +14,10 @@
         android:orientation="vertical" >
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="5dp"
             android:src="@mipmap/ic_launcher"
             app:civ_border_width="2dp"
             app:civ_border_color="@color/teal_700"
@@ -27,6 +29,13 @@
             android:layout_marginTop="5dp"
             android:textSize="14sp"
             android:text="박지성" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="010-5678-1234" />
 
 
     </LinearLayout>
